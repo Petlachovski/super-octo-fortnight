@@ -6,7 +6,9 @@ __Build__
 
 To build the program, you will need [cmake](https://cmake.org/)
 ```
-cd super-octo-fortnight/app/build/
+cd super-octo-fortnight/app
+mkdir build
+cd build
 cmake ..
 cmake --build .
 ```
